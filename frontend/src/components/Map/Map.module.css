@@ -1,19 +1,5 @@
-.container {
-  position: relative;
-}
-
 .map {
   height: 380px;
-  border: 1px solid red;
+  border: 2px solid blue;
   cursor: default;
-}
-
-.locationButton {
-  position: absolute;
-  bottom: 40px;
-  right: 10px;
-  cursor: pointer;
-  z-index: 1000;
-  background-color: transparent;
-  border: none;
 }
