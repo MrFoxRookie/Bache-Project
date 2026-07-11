@@ -2,4 +2,22 @@
   height: 380px;
   border: 2px solid blue;
   cursor: default;
+  position: relative;
+}
+
+.locateButton {
+  position: absolute;
+
+  z-index: 1000;
+
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  left: 20px;
+  bottom: 20px;
+}
+
+.locateIcon {
+  color: blue;
+  width: 40px;
 }

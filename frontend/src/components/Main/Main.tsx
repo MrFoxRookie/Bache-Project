@@ -1,15 +1,14 @@
 // import styles from "./Main.module.css"
-import {useEffect} from "react"
-import Map from "../Map/Map"
+import { useEffect } from "react";
+import Map from "../Map/Map";
 function Main() {
+  useEffect(() => {}, []);
 
-  useEffect(() => {
-    
-  }, [])
- 
-  return <>
-  <Map/>
-  </>
+  return (
+    <>
+      <Map />
+    </>
+  );
 }
 
-export default Main                                            
+export default Main;
