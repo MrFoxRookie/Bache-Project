@@ -1,10 +1,13 @@
-export default function enableAddMarkerMode(map: L.Map) {
-  console.log("addMarkerMode");
+function setCursor(map: L.Map, cursor: string) {
+  map.getContainer().style.cursor = cursor;
+}
 
-  function changeElementCursor() {
-    const element = map.getContainer();
-    element.style.cursor = "crosshair";
-  }
+export function enableAddMarkerMode(map: L.Map) {
+  console.log("enable");
+  setCursor(map, "crosshair");
+}
 
-  changeElementCursor();
+export function disableAddMarkerMode(map: L.Map) {
+  console.log("disable");
+  setCursor(map, "");
 }
